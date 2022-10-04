@@ -1,0 +1,61 @@
+.app-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.container {
+	text-align: center;
+	border: 1px solid #000;
+	border-radius: 15px;
+	padding: 15px;
+	.title {
+		font-size: 38px;
+		margin-bottom: 20px;
+		font-weight: bold;
+	}
+	.count {
+		font-family: 'Source Code Pro', monospace;
+		font-size: 50px;
+		font-weight: bold;
+		margin-bottom: 20px;
+	}
+	.button {
+		font-family: 'Source Code Pro', monospace;
+		display: flex;
+
+		&__count {
+			color: #fff;
+			border-radius: 5px;
+			padding: 12px 25px;
+			background: transparent;
+			cursor: pointer;
+			transition: all 0.3s ease;
+			position: relative;
+			display: inline-block;
+			&:active {
+				top: 4px;
+			}
+		}
+		.decrease {
+			margin-right: 10px;
+			border: 2px solid #8a0303;
+			background: #ff4747;
+			transition: background 0.4s ease;
+			&:hover {
+				background: #8a0303;
+				transition: background 0.4s ease;
+			}
+		}
+		.increase {
+			border: 2px solid #016b05;
+			background: #2bab2f;
+			transition: background 0.4s ease;
+			&:hover {
+				background: #016b05;
+				transition: background 0.4s ease;
+			}
+		}
+	}
+}
