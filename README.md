@@ -1,6 +1,6 @@
 # Counter app
 
-### [Посмотреть здесь](https://ildarmjs.github.io/counter/)
+### [Посмотреть приложение](https://ildarmjs.github.io/counter/)
 
 ## Как запустить приложение локально
 
